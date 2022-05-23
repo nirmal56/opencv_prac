@@ -11,7 +11,7 @@ int main(){
     for(;;){
         capture>>frame;
         namedWindow("video", WINDOW_NORMAL);
-        // resizeWindow("video", WIDTH, HEIGHT);
+        resizeWindow("video", WIDTH, HEIGHT);
         imshow("video",frame);
         if(waitKey(33)>0){break;}
         
