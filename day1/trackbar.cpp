@@ -32,7 +32,7 @@ int main()
 			setTrackbarPos("Position","Window",current_pos);
 			run-=1;
 		}
-		waitKey(10);
+		waitKey(33);
 	}
 	return 0;
 }
